@@ -4,19 +4,25 @@
 .grid-row-sm-auto{
   @include grid-row(40px);
 }
-.grid-col-sm-repeat{
-  @include grid-columns-repeat(12);
+
+.grid-col-sm-repeat-3{
+  @include grid-columns-repeat(3);
 }
 .gap{
   @include gap(2rem);
+
 }
+@include col(8,'sm');
 @include grid-row-and-col('row',5, 'sm');
-@include grid-row-and-col('columm',5, 'sm');
+@include grid-row-and-col('column',5, 'sm');
 @include breakpoint-up(md)
 {
   @include grid-row-and-col('row',5, 'md');
-  @include grid-row-and-col('columm',5, 'md');
+  @include grid-row-and-col('column',5, 'md');
   @include col(5,'md');
+  .grid-col-md-repeat-6{
+    @include grid-columns-repeat(6);
+  }
 }
 
 @include breakpoint-up(xl)
@@ -24,4 +30,7 @@
   @include grid-row-and-col('row',8, 'xl');
   @include grid-row-and-col('columm',8, 'xl');
   @include col(8,'xl');
+  .grid-col-xl-repeat-12{
+    @include grid-columns-repeat(12);
+  }
 }
