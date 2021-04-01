@@ -15,7 +15,7 @@
   @if map-has-key($breakpoints,$breakpoint){
     $value : map-get($breakpoints,$breakpoint);
     @media screen and (min-width: $value) {
-      @content() ;
+      @content ;
     }
   }
 }
@@ -27,7 +27,7 @@
         grid-#{$value}: span $i;
       }
     }@else {
-      .grid-col-#{$break-point}-#{$i}{
+      .grid-#{$value}-#{$break-point}-#{$i}{
         grid-#{$value}: span $i;
       }
 

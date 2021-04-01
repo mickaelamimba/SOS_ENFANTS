@@ -2,13 +2,13 @@
   @include grid;
 }
 .grid-row-sm-auto{
-  @include grid-row(40px)
+  @include grid-row(40px);
 }
 .grid-col-sm-repeat{
-  @include grid-columns-repeat(12)
+  @include grid-columns-repeat(12);
 }
 .gap{
-  @include gap(2rem)
+  @include gap(2rem);
 }
 @include grid-row-and-col('row',5, 'sm');
 @include grid-row-and-col('columm',5, 'sm');
