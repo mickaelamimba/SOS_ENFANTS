@@ -2,13 +2,13 @@
   display: grid;
 }
 @mixin grid-columns-repeat($repeat){
-  grid-template-columns: repeat($repeat 1fr);
+  grid-template-columns: repeat($repeat, 1fr);
 }
 @mixin gap($gap){
   grid-gap: $gap;
 }
 @mixin grid-row($size){
-  grid-auto-rows: minmax($size auto);
+  grid-auto-rows: minmax($size, auto);
 }
 
 @mixin breakpoint-up($breakpoint){
