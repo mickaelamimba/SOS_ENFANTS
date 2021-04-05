@@ -10,21 +10,21 @@
 </head>
 <body>
 <div id="top">
-    <header class="header" role="banner">
+    <header class="header text-center" role="banner">
         <h1>SOS ENFANTS</h1>
         <h2>Aider sans Assister avec SOS Enfants</h2>
         <h3>Association humanitaire créée en 1982</h3>
         <h4>reconnue d'utilité publique</h4>
     </header>
     <nav class="bg-color" role="navigation">
-        <ul class="menu" role="menu">
-            <li class="menu-item" role="menuitem"><a class="menu-link" href="index.html">ACCEUIL</a></li>
-            <li class="menu-item" role="menuitem"><a class="menu-link" href="envements.html">  EVENEMENTS</a></li>
+        <ul class="menu space-around col-xl-2" role="menu">
+            <li class="menu-item" role="menuitem"><a class=" pt-2 pb-2 menu-link" href="index.html">ACCEUIL</a></li>
+            <li class="menu-item" role="menuitem"><a class=" pb-2 pt-2 menu-link" href="envements.html">  EVENEMENTS</a></li>
         </ul>
 
     </nav>
     <div class="grid-container grid-col-sm-repeat-3 grid-col-md-repeat-6 grid-col-xl-repeat-12 gap grid-row-sm-auto">
-        <main class=" grid-container gap grid-row-sm-auto grid-column-sm-3 grid-column-md-7 grid-column-xl-8" role="main">
+        <main class=" pl-1 pr-1 grid-container gap grid-row-sm-auto grid-column-sm-3 grid-column-md-7 grid-column-xl-8" role="main">
         <article class="grid-column-sm-3 grid-column-md-7 grid-column-xl-6 col-sm-12 col-md-12 col-xl-12 bg-color-transparent color-text shadow"  >
             <figure >
                 <img class="col-sm-8 col-md-8 col-xl-8"  src="./images/world-map.gif" alt="world-map">
@@ -139,15 +139,15 @@
             </table>
         </section>
     </main>
-        <aside class="grid-column-sm-3 grid-column-md-7 grid-column-xl-4 bg-color-transparent shadow">
-        <section class="col-sm-12 col-md-8 col-xl-12" >
+        <aside class="  pl-1 pr-1 grid-column-sm-3 grid-column-md-7 grid-column-xl-4 bg-color-transparent shadow">
+        <section class="col-sm-12 col-md-8 col-xl-12 pt-2" >
             <h4>Don en ligne sécurisé</h4>
             <button class="btn-secondary"  type="submit">Faire un don</button>
         </section>
-            <form class="col-sm-6 col-md-5 col-xl-12 bg-color"  >
-                <fieldset>
+            <form class="pl-1 pr-1 mt-2 pt-3 pb-3 col-sm-12 col-md-12 col-xl-12 bg-color shadow form-border"  >
+                <fieldset class="flex-content flex-column">
                     <legend>Formulaire de contact</legend>
-                    <p>
+                    <p >
                         <label for="mr">Monsieur</label>
                         <input type="radio" name="civilite" id="mr">
 
@@ -157,21 +157,21 @@
                         <input type="radio" name="civilite" id="mme">
 
                     </p>
-                    <p>
+                    <p class="flex-content flex-column mt-1 form-group">
                         <label for="lastName">* Nom</label>
                         <input type="text" name="lastName" id="lastName">
 
                     </p>
-                    <p>
+                    <p class="flex-content flex-column mt-1 form-group">
                         <label for="firstName">* Prénom</label>
                         <input type="text" name="firstName" id="firstName">
 
                     </p>
-                    <p>
+                    <p class="flex-content flex-column mt-1 form-group">
                         <label for="email">* E-mail </label>
                         <input type="email" name="email" id="email">
                     </p>
-                    <p>
+                    <p class="flex-content flex-column mt-1 mb-1 form-group">
                         <label for="msg">VOTRE MESSAGE</label>
                         <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
                     </p>
@@ -180,8 +180,8 @@
             </form>
         </aside>
     </div>
-    <footer class="bg-color">
-        <button class="btn-secondary"  type="submit"><a href="#top">top</a></button>
+    <footer class="pl-1 pr-1 bg-color text-center">
+        <button class="btn-secondary pt-1 pb-1"  type="submit"><a class="menu-link" href="#top">top</a></button>
         <section>
             <h4>Don en ligne sécurisé</h4>
             <button class="btn-secondary" type="submit">Faire un don</button>

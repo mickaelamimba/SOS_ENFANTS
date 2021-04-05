@@ -2,22 +2,22 @@
   @for $i from 1 through $value{
     @if($type== mt){
       .mt-#{$i}{
-        @include  margin-top($i rem)
+        @include  margin-top(#{$i}rem)
       }
     }
     @if($type == ml){
       .ml-#{$i}{
-        @include margin-left($i rem)
+        @include margin-left(#{$i}rem)
       }
     }
     @if($type == mb){
       .mb-#{$i}{
-        @include margin-bottom($i rem)
+        @include margin-bottom(#{$i}rem)
       }
     }
     @if($type == mr){
       .mr-#{$i}{
-        @include margin-right($i rem)
+        @include margin-right(#{$i}rem)
       }
     }
 
@@ -31,22 +31,22 @@
   @for $i from 1 through $value{
     @if($type== pt){
       .pt-#{$i}{
-        @include  padding-top($i rem)
+        @include  padding-top(#{$i}rem)
       }
     }
     @if($type == pl){
       .pl-#{$i}{
-        @include padding-left($i rem)
+        @include padding-left(#{$i}rem)
       }
     }
     @if($type == pb){
       .pb-#{$i}{
-        @include padding-bottom($i rem)
+        @include padding-bottom(#{$i}rem)
       }
     }
     @if($type == pr){
       .pr-#{$i}{
-        @include padding-right($i rem)
+        @include padding-right(#{$i}rem)
       }
     }
 

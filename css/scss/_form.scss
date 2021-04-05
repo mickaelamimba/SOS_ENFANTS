@@ -1,0 +1,14 @@
+.form-group  input,form-group textarea{
+  background: $transparent-color;
+  padding: 1rem;
+  display: block;
+  @include hover(){
+    background: $color-text;
+    color: $color-text-hover;
+  }
+
+
+}
+.form-border{
+  @include border-radius(2rem)
+}

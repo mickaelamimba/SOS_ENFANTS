@@ -34,3 +34,25 @@
     @include grid-columns-repeat(12);
   }
 }
+.flex-content{
+  @include flex;
+}
+.flex-column{
+  @include direction(column);
+}
+
+justify-center{
+  justify-content: center;
+}
+.space-around{
+  justify-content: space-around;
+}
+.space-between{
+  justify-content: space-between;
+}
+.alin-iten-center{
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
