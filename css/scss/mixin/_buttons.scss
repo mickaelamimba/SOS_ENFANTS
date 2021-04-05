@@ -1,0 +1,25 @@
+@mixin make-buttons(
+  $background,
+  $color: darken($background,20%),
+  $hover-bg-color: trim-color($background,50%),
+  $hover-color:trim-color($background,20%),
+
+){
+  background: $background;
+  color: $color ;
+  outline: none;
+  border: none;
+  @include hover{
+    background: $hover-bg-color;
+    color: $hover-color ;
+    transition: $transition-base;
+    border: 0.2px solid shade-color($background,40%);
+
+  }
+
+}
+@mixin button-size($padding-y,$padding-x,$border-radius, $font-size){
+padding: $padding-y $padding-x;
+  @include font-size($font-size);
+ @include border-radius($border-radius);
+}

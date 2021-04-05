@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 100%;
+  line-height: 1.5;
+}
+
 .grid-container {
   display: grid;
 }
@@ -389,19 +401,68 @@
 }
 
 .bg-color-transparent {
-  background: rgba(1, 121, 21, 0.1);
+  background: #e6f2e8;
 }
 
 .bg-text {
-  color: #001403;
+  color: #013d0b;
 }
 
 .bg-text-hover:hover {
-  color: #02b620;
+  color: #9ecca6;
 }
 
 .shadow {
-  box-shadow: -2px 5px 7px 1px rgba(27, 27, 27, 0.2);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.header {
+  background: #80bc8a;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .menu {
+    flex-direction: row;
+  }
+}
+.menu-item {
+  list-style: none;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #013d0b;
+  display: block;
+}
+.menu-link:hover {
+  color: #9ecca6;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background: #017915;
+  color: #001403;
+  outline: none;
+  border: none;
+  padding: 0.5rem 0.7rem;
+  font-size: calc(1.275rem + 0.3vw);
+  border-radius: 1rem;
+}
+.btn-primary:hover {
+  background: #80bc8a;
+  color: #349444;
+  transition: all 0.2s ease-in-out;
+  border: 0.2px solid #01490d;
+}
+@media (min-width: 1200px) {
+  .btn-primary {
+    font-size: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,30 @@
+
+.menu{
+  @include flex;
+  @include direction('column');
+
+}
+@include breakpoint-up(xl){
+.menu{
+  @include direction('row');
+
+}
+}
+
+.menu-item{
+  list-style: none;
+
+
+}
+.menu-link{
+  text-decoration: none;
+  color: $color-text;
+  display: block;
+  @include hover{
+    color: $color-text-hover;
+    transition: $transition-base;
+  }
+
+
+
+}

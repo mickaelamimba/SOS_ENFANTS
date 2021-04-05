@@ -1,0 +1,4 @@
+.btn-primary{
+  @include make-buttons($primary);
+  @include button-size(0.5rem, 0.7rem,1rem, 1.5rem);
+}

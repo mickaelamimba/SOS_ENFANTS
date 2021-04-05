@@ -4,7 +4,9 @@
 @include set-text-color($color-text);
 @include set-text-color($color-text-hover,'hover');
 
-
 .shadow{
-  box-shadow: $shadow;
+  box-shadow: $box-shadow;
+}
+.header{
+background: trim-color($primary,50%);
 }
