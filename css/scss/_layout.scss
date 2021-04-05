@@ -12,14 +12,14 @@
   @include gap(2rem);
 
 }
-@include col(8,'sm');
+@include col(12,'sm');
 @include grid-row-and-col('row',8, 'sm');
 @include grid-row-and-col('column',8, 'sm');
 @include breakpoint-up(md)
 {
   @include grid-row-and-col('row',10, 'md');
   @include grid-row-and-col('column',10, 'md');
-  @include col(10,'md');
+  @include col(12,'md');
   .grid-col-md-repeat-6{
     @include grid-columns-repeat(6);
   }

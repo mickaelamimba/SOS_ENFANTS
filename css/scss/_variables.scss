@@ -12,7 +12,9 @@ $breakpoints:(
 
 //color
 $green: #017915;
+$violet:#A80295;
 $primary :$green ;
+$secondary: $violet;
 $transparent-color: trim-color($primary,90%);
 
 $color-text:shade-color($primary,50%);
