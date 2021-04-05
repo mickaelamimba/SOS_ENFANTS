@@ -1,0 +1,10 @@
+
+@include set-bg-color($primary);
+@include set-bg-color($transparent-color,'transparent');
+@include set-text-color($color-text);
+@include set-text-color($color-text-hover,'hover');
+
+
+.shadow{
+  box-shadow: $shadow;
+}

@@ -384,5 +384,24 @@
     grid-template-columns: repeat(12, 1fr);
   }
 }
+.bg-color {
+  background: #017915;
+}
+
+.bg-color-transparent {
+  background: rgba(1, 121, 21, 0.1);
+}
+
+.bg-text {
+  color: #001403;
+}
+
+.bg-text-hover:hover {
+  color: #02b620;
+}
+
+.shadow {
+  box-shadow: -2px 5px 7px 1px rgba(27, 27, 27, 0.2);
+}
 
 /*# sourceMappingURL=styles.css.map */

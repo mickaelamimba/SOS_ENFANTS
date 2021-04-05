@@ -8,3 +8,11 @@ $breakpoints:(
         xl: 1200px,
         xxl: 1400px
 );
+
+//color
+$green: #017915;
+$primary :$green ;
+$transparent-color: transparentize($primary,0.9);
+$color-text:darken($primary,20%);
+$color-text-hover:lighten($primary,12%);
+$shadow:-2px 5px 7px 1px rgb(27 27 27 / 20%);

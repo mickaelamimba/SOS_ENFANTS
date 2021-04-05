@@ -1,0 +1,35 @@
+@mixin set-text-color($color, $type: false){
+  @if ($type ==false  ){
+    .bg-text{
+      color: $color;
+
+    }
+
+  }@else {
+    .bg-text-#{$type}{
+      @include hover{
+        color: $color;
+      }
+
+    }
+  }
+
+
+}
+
+
+@mixin set-bg-color($color, $type: false){
+  @if ($type ==false  ){
+    .bg-color{
+      background: $color;
+
+    }
+
+  }@else {
+    .bg-color-#{$type}{
+      background: $color;
+    }
+  }
+
+
+}
