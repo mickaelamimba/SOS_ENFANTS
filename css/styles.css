@@ -453,19 +453,19 @@ justify-center {
 }
 
 .bg-color {
-  background: #017915;
+  background: #008609;
 }
 
 .bg-color-transparent {
-  background: #e6f2e8;
+  background: #e6f3e6;
 }
 
 .bg-text {
-  color: #013d0b;
+  color: #004305;
 }
 
 .bg-text-hover:hover {
-  color: #9ecca6;
+  color: #9ed1a2;
 }
 
 .shadow {
@@ -473,7 +473,7 @@ justify-center {
 }
 
 .header {
-  background: #80bc8a;
+  background: #80c384;
 }
 
 .menu {
@@ -492,11 +492,11 @@ justify-center {
 
 .menu-link {
   text-decoration: none;
-  color: #013d0b;
+  color: #004305;
   display: block;
 }
 .menu-link:hover {
-  color: #9ecca6;
+  color: #9ed1a2;
   transition: all 0.2s ease-in-out;
 }
 
@@ -618,17 +618,28 @@ justify-center {
 }
 
 .form-group input, form-group textarea {
-  background: #e6f2e8;
+  background: #e6f3e6;
   padding: 1rem;
   display: block;
 }
 .form-group input:hover, form-group textarea:hover {
-  background: #013d0b;
-  color: #9ecca6;
+  background: #004305;
+  color: #9ed1a2;
 }
 
 .form-border {
   border-radius: 2rem;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid #A80295;
+}
+
+td {
+  padding: 0.4rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
