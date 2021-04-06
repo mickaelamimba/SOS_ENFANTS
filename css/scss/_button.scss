@@ -6,6 +6,12 @@
 
 .btn-info-direction{
 
-  top: 50px;
-  left:  550px;
+  top: 52px;
+  left: 190px;
+}
+
+@include breakpoint-up('md'){
+  .btn-info-direction{
+    left: 350px;
+  }
 }
