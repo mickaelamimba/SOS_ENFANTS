@@ -633,12 +633,12 @@ justify-center {
   padding-bottom: 3rem;
 }
 
-.form-group input, form-group textarea {
+.form-group input, textarea {
   background: #f2f9f3;
   padding: 1rem;
   display: block;
 }
-.form-group input:hover, form-group textarea:hover {
+.form-group input:hover, textarea:hover {
   background: #004305;
   color: #9ed1a2;
 }
