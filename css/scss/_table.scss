@@ -1,9 +1,18 @@
 table {
-  table-layout: fixed;
+
+
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid $secondary;
+  text-align: center;
+  caption-side: bottom;
 }
-td{
-  padding: 0.4rem;
+tr,td{
+  border: 1px solid $black;
+  vertical-align: top;
+}
+tr td:nth-child(2){
+  width: 10%;
+}
+tr td:nth-child(5){
+  width: 10%;
 }

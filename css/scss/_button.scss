@@ -2,3 +2,10 @@
   @include make-buttons($secondary);
   @include button-size(0.5rem, 0.7rem,1rem, 1.5rem);
 }
+
+
+.btn-info-direction{
+
+  top: 50px;
+  left:  550px;
+}

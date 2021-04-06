@@ -15,13 +15,16 @@
   list-style: none;
 
 
+
 }
 .menu-link{
   text-decoration: none;
-  color: $color-text;
+
+  color: $color-text-hover;
   display: block;
+
   @include hover{
-    color: $color-text-hover;
+    color: $color-text;
     transition: $transition-base;
   }
 

@@ -452,12 +452,28 @@ justify-center {
   text-align: center;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.decoration-none {
+  text-decoration: none;
+}
+
 .bg-color {
   background: #008609;
 }
 
 .bg-color-transparent {
-  background: #e6f3e6;
+  background: #f2f9f3;
 }
 
 .bg-text {
@@ -492,17 +508,17 @@ justify-center {
 
 .menu-link {
   text-decoration: none;
-  color: #004305;
+  color: #9ed1a2;
   display: block;
 }
 .menu-link:hover {
-  color: #9ed1a2;
+  color: #004305;
   transition: all 0.2s ease-in-out;
 }
 
 .btn-secondary {
   background: #A80295;
-  color: #43013c;
+  color: #54014b;
   outline: none;
   border: none;
   padding: 0.5rem 0.7rem;
@@ -512,13 +528,18 @@ justify-center {
 .btn-secondary:hover {
   background: #d481ca;
   color: #b935aa;
-  transition: all 0.2s ease-in-out;
+  transition: background 0.2s ease-in-out;
   border: 0.2px solid #650159;
 }
 @media (min-width: 1200px) {
   .btn-secondary {
     font-size: 1.5rem;
   }
+}
+
+.btn-info-direction {
+  top: 50px;
+  left: 550px;
 }
 
 .ml-1 {
@@ -618,7 +639,7 @@ justify-center {
 }
 
 .form-group input, form-group textarea {
-  background: #e6f3e6;
+  background: #f2f9f3;
   padding: 1rem;
   display: block;
 }
@@ -632,14 +653,23 @@ justify-center {
 }
 
 table {
-  table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 3px solid #A80295;
+  text-align: center;
+  caption-side: bottom;
 }
 
-td {
-  padding: 0.4rem;
+tr, td {
+  border: 1px solid #000;
+  vertical-align: top;
+}
+
+tr td:nth-child(2) {
+  width: 10%;
+}
+
+tr td:nth-child(5) {
+  width: 10%;
 }
 
 /*# sourceMappingURL=styles.css.map */
